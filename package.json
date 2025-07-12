@@ -1,0 +1,16 @@
+{
+    "name": "industrial-robot-docs",
+    "version": "1.0.0",
+    "description": "Static site generated from Markdown files",
+    "scripts": {
+        "build": "node build.js",
+        "start": "npx http-server dist",
+        "startv": "npx serve dist -l 8080 -s"
+    },
+    "devDependencies": {
+        "ejs": "^3.1.10",
+        "fs-extra": "^10.1.0",
+        "glob": "^8.1.0",
+        "marked": "^4.3.0"
+    }
+}

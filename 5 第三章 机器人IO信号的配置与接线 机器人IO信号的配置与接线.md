@@ -1,0 +1,177 @@
+# 2 第三章 机器人IO信号的配置与接线 机器人IO信号的配置与接线
+
+## 实战ABB标准I0板卡--DSQC651配置
+
+### ABB标准I/O板DSQC651是最为常用的模块，下面以创建数字输入信号di、数字输出信号do、组输入信号gi、组输出信号go和模拟输出信号ao为例做一个详细的讲解。
+
+![alt text](img5/image.png)
+## 首先点击【修改选项】,选择【709-1】选项，这样后面才会选到【DeviceNet Device】
+![alt text](img5/image-81.png)
+#### 第一步 选择“控制面板”
+![alt text](img5/image-1.png)
+#### 第二步 选择“配置”
+![alt text](img5/image-2.png)
+#### 第三步 双击"DeviceNet Device".
+![alt text](img5/image-3.png)
+#### 第四步 单击“添加”
+![alt text](img5/image-4.png)
+#### 第五步 选择“DSQC 651 Combi l/0 Device”。
+![alt text](img5/image-5.png)
+#### 第六步 双击“Name”进行DSQC651板在系统中名字的设定
+![alt text](img5/image-6.png)
+#### 第七步 在系统中将DSQC651板的名字设定为"board10"
+![alt text](img5/image-7.png)
+#### 下翻页
+![alt text](img5/image-8.png)
+#### 第八步 将"Address”设定为10，然后单击”确定”
+![alt text](img5/image-9.png)
+#### 单击”是”，这样DSQC651板的定义就完成了。
+
+### 定义数字输入信号di1
+#### 第一步
+![alt text](img5/image-10.png)
+#### 第二步
+![alt text](img5/image-11.png)
+#### 第三步
+![alt text](img5/image-12.png)
+#### 第四步
+![alt text](img5/image-13.png)
+#### 第五步
+![alt text](img5/image-14.png)
+#### 第六步
+![alt text](img5/image-15.png)
+#### 第七步
+![alt text](img5/image-16.png)
+#### 第八步
+![alt text](img5/image-17.png)
+#### 第九步
+![alt text](img5/image-18.png)
+#### 第十步
+![alt text](img5/image-19.png)
+#### 第十一步
+![alt text](img5/image-20.png)
+#### 第十二步
+![alt text](img5/image-21.png)
+#### 第十三步
+![alt text](img5/image-22.png)
+#### 第十四步
+![alt text](img5/image-23.png)
+#### 第十五步
+![alt text](img5/image-24.png)
+### 定义数字输出信号do1
+#### 第一步
+![alt text](img5/image-25.png)
+#### 第二步
+![alt text](img5/image-26.png)
+#### 第三步
+![alt text](img5/image-27.png)
+#### 第四步
+![alt text](img5/image-28.png)
+#### 第五步
+![alt text](img5/image-29.png)
+#### 第六步
+![alt text](img5/image-30.png)
+#### 第七步
+![alt text](img5/image-31.png)
+#### 第八步
+![alt text](img5/image-32.png)
+#### 第九步
+![alt text](img5/image-33.png)
+#### 第十步
+![alt text](img5/image-34.png)
+#### 第十一步
+![alt text](img5/image-35.png)
+### 定义组输入信号gi1
+#### 第一步
+![alt text](img5/image-36.png)
+#### 第二步
+![alt text](img5/image-37.png)
+#### 第三步
+![alt text](img5/image-38.png)
+#### 第五步
+![alt text](img5/image-39.png)
+#### 第六步
+![alt text](img5/image-40.png)
+#### 第七步
+![alt text](img5/image-41.png)
+#### 第八步
+![alt text](img5/image-42.png)
+#### 第九步
+![alt text](img5/image-43.png)
+#### 第十步
+![alt text](img5/image-44.png)
+#### 第十一步
+![alt text](img5/image-45.png)
+#### 第十二步
+![alt text](img5/image-46.png)
+#### 第十三步
+![alt text](img5/image-47.png)
+### 定义组输出信号go1
+#### 第一步
+![alt text](img5/image-48.png)
+#### 第二步
+![alt text](img5/image-49.png)
+#### 第三步
+![alt text](img5/image-50.png)
+#### 第四步
+![alt text](img5/image-51.png)
+#### 第五步
+![alt text](img5/image-52.png)
+#### 第六步
+![alt text](img5/image-53.png)
+#### 第七步
+![alt text](img5/image-54.png)
+#### 第八步
+![alt text](img5/image-55.png)
+#### 第九步
+![alt text](img5/image-56.png)
+#### 第十步
+![alt text](img5/image-57.png)
+#### 第十一步
+![alt text](img5/image-58.png)
+#### 第十二步
+![alt text](img5/image-59.png)
+#### 第十三步
+![alt text](img5/image-60.png)
+### 定义模拟输出信号ao1
+#### 第一步
+![alt text](img5/image-61.png)
+#### 第二步
+![alt text](img5/image-62.png)
+#### 第三步
+![alt text](img5/image-63.png)
+#### 第四步
+![alt text](img5/image-64.png)
+#### 第五步
+![alt text](img5/image-65.png)
+#### 第六步
+![alt text](img5/image-66.png)
+#### 第七步
+![alt text](img5/image-67.png)
+#### 第八步
+![alt text](img5/image-68.png)
+#### 第九步
+![alt text](img5/image-69.png)
+#### 第十步
+![alt text](img5/image-70.png)
+#### 第十一步
+![alt text](img5/image-71.png)
+#### 第十二步
+![alt text](img5/image-72.png)
+#### 第十三步
+![alt text](img5/image-73.png)
+#### 第十四步
+![alt text](img5/image-74.png)
+#### 第十五步
+![alt text](img5/image-75.png)
+
+![alt text](img5/image-76.png)
+![alt text](img5/image-77.png)
+![alt text](img5/image-78.png)
+![alt text](img5/image-79.png)
+![alt text](img5/image-80.png)
+![alt text](img5/image-82.png)
+![alt text](img5/image-83.png)
+![alt text](img5/image-84.png)
+![alt text](img5/image-85.png)
+
